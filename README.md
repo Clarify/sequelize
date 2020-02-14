@@ -1,3 +1,5 @@
+# This fork fixes memory leaks in v4.44.3 with MySQL.
+
 # Sequelize
 
 [![npm version](https://img.shields.io/npm/v/sequelize.svg)](https://www.npmjs.com/package/sequelize)
@@ -74,4 +76,3 @@ If you have any security issue to report, contact project maintainers privately.
 ### Translations
 - [English v4](http://docs.sequelizejs.com) (OFFICIAL)
 - [中文文档 v4](https://github.com/demopark/sequelize-docs-Zh-CN) (UNOFFICIAL)
-
