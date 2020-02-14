@@ -1,5 +1,7 @@
 # This fork fixes memory leaks in v4.44.3 with MySQL.
 
+- NOTE: This fix simply caches lodash templates. Depending on your usage/queries, this may NOT solve all your problems. Specifically, if you use UPDATE queries with different LIMITs, each limit value will generate a different template.
+
 # Sequelize
 
 [![npm version](https://img.shields.io/npm/v/sequelize.svg)](https://www.npmjs.com/package/sequelize)
